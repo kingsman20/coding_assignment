@@ -26,7 +26,7 @@ A greedy approach would always select the biggest jobs first but this might not 
 
 Clone the Repo
 
-Enable the line below in `index.js` file
+Enable the lines below in `index.js` file
 
 ```
 const { calculateJobsAndEarningsLeft } = require("./jobs_left");
@@ -35,6 +35,8 @@ calculateJobsAndEarningsLeft();
 ```
 
 Next run the command `npm run start`
+
+Enter the required values in the prompt
 
 ## Problem 2:
 
@@ -56,7 +58,7 @@ The problem is solved by
 
 Clone the Repo
 
-Enable the line below in `index.js` file
+Enable the lines below in `index.js` file
 
 ```
 const { minimizePriceDifference } = require("./minimize_price_difference");
@@ -73,6 +75,8 @@ const { minimizePriceDifference } = require("./minimize_price_difference");
    }
  })();
 ```
+
+An output file is generated in the `sample-inputs-outputs` folder
 
 Next run the command `npm run start`
 
