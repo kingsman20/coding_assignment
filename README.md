@@ -76,8 +76,8 @@ const { minimizePriceDifference } = require("./minimize_price_difference");
  })();
 ```
 
-An output file is generated in the `sample-inputs-outputs` folder
-
 Next run the command `npm run start`
+
+An output file is generated in the `sample-inputs-outputs` folder
 
 ### End
